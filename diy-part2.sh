@@ -26,7 +26,8 @@ cp -a $GITHUB_WORKSPACE/configfiles/etc/* package/base-files/files/etc/
 # ls package/base-files/files/etc/
 
 
-
+#科学上网插件
+git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 
 
 
